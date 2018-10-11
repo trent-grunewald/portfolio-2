@@ -1,0 +1,86 @@
+.nav{
+  letter-spacing: 2px;
+  position: absolute;
+  top: 0;
+  -ms-flex-pack: center;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 1%;
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Teko",sans-serif;
+
+  .nav-item{
+    display: flex;
+    justify-content:space-around;
+    list-style-type: none;
+    height: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    margin: 0 5em;
+
+    a{
+      text-decoration: none;
+      letter-spacing: 5px;
+      z-index: 7;
+      font-size: 1.1em;
+      color: #dcd3d9;
+      text-shadow: 0px 1px 1px #3a3846;
+
+      &:before{
+        content: "";
+        position: absolute;
+        top: -20;
+        left: -17;
+        width: 150%;
+        height: 0%;
+        background: #525993c4;
+        transition: .5s;
+        z-index: -1;
+        border-radius: 0 0 5px 5px;
+      }
+      &:hover:before{
+        height: 120%;
+      }
+    }
+  }
+}
+
+.landing-image{
+  background: url(https://wallpapers.wallhalla.com/nJ7gdMJukX_6qT0Z9W_1ce84bb9/aHR0cHM6Ly9hbHBoYS53YWxsaGF2ZW4uY2Mvd2FsbHBhcGVyLzUwMDk3MA==) center center no-repeat;
+  filter: blur(4px);
+  background-size: cover;
+  height: 100%;
+  width: auto;
+  min-height: 620px;
+}
+
+.landing-body{
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  
+  .name{
+    font-size: 4em;
+    letter-spacing: 5px;
+    color: #dcd3d9;
+    text-shadow: 5px 4px 7px #3a3846;
+  }
+
+  .web{
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    color: #525993;
+    text-shadow: 2px 2px 1px #2d2c2d;
+  }
+}
