@@ -5,9 +5,6 @@ webpackJsonp([0],{
 
 "use strict";
 
-
-console.log('testing javascript2');
-
 /***/ })
 
 },[98]);
