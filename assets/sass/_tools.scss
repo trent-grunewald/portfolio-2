@@ -1,0 +1,73 @@
+.tools{ 
+position: relative;
+
+  svg{
+    position: absolute;
+  }
+  .section-container{
+    padding-bottom: 10em;
+
+    .cards-container{
+      display: grid;
+      -ms-flex-flow: row;
+      grid-gap: 10px;
+      padding: 10em 0 5em 0;
+      grid-template-rows: auto(3,1fr);
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
+      .card{
+        background: #ffffff;
+        box-shadow: 0 0 7px 0px #0cbfef7a;
+        text-align: center;
+        padding: 2%;
+        color: #00416b;
+        font-weight: 500;
+        line-height: 1.5;
+        border-radius: 5px;
+        .title{
+          font-size: 2em;
+          padding: 1% 0;
+          margin: 20px 0;
+        }
+      }
+    }
+  }
+  
+
+    .experiences{
+      background: white;
+      box-shadow: 0 0 7px 0px #0cbfef7a;
+      text-align: center;
+      font-weight: 500;
+      line-height: 1.5;
+      padding: .5%;
+      border-radius: 5px;
+    }
+  }
+
+  .companies{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    align-items: center;
+
+    img{
+      height: auto;
+      width: 100%;
+      object-fit: scale-down;
+  }
+}
+
+@media only screen and (max-width: 1331px) {
+  .tools .section-container .cards-container {
+    display: block;
+  }
+.companies{
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+
+  img{
+    height: 200px;
+}
+}
+}

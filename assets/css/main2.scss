@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import "reset";
+
+$white: #b3b7b3;
+$lgray: #989089;
+$dark: #242628;
+$mgray: #716d6d;
+$blue: #394849;
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Stoke', serif;
+}
+
+  #title-area{
+  background: url(https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-557466.jpg) no-repeat;
+  background-size: 100vw auto;
+  height: 100vh;
+  width: 100vw;
+
+  .navbar{
+    display: inline-block;
+    height: 5vw;
+    width: 97vw;
+    text-align: right;
+    padding-top: 15px;
+
+      a {
+        padding: 10px;
+        font-weight: 300;
+        font-size: 1.5vw;
+        text-decoration: none;
+        color: #74a1a4;
+        }
+
+      a:hover {
+          color: #f7fbfa;
+        }
+    }
+
+    .titles{
+      margin-left: 39.25vw;
+      margin-top: 10vw;
+      color: white;
+
+      h1{
+        font-size: 3.5vw;
+        color: #7b969d;
+      }
+
+      h2{
+        color: #2e4b4d;
+        font-size: 2.5vw;
+        margin-left: 6vw;
+      }
+    }
+
+}
+
+  #About{
+  }

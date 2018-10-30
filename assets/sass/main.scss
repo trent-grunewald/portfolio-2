@@ -1,8 +1,13 @@
 @import url( 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
 @import "reset";
 @import 'variables';
 @import "landing";
 @import "about";
+@import "tools";
+@import "projects";
+@import "contact";
+@import "footer";
 
 *, *:after, *::before {
 	-webkit-box-sizing: border-box;
@@ -13,12 +18,32 @@
 html body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
-  // background: purple;
 }
 
 h1 {
   font-weight: 100;
   font-size: 50px;
+}
+
+.main{
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 32px;
+  color: $fc-blue;
+}
+
+.rounded{
+  padding: 8px 15px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-top: 4px;
+  background: linear-gradient(50deg, $fc-lightBlue, $fc-blue);
+}
+
+.section-container{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home {

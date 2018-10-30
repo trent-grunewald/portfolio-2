@@ -1,5 +1,50 @@
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
-@import url('https://fonts.googleapis.com/css?family=Permanent+Marker|Teko:600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:500');
 
-$ff-title:'Permanent Marker', cursive;
-$ff-body: 'Teko', sans-serif;
+//fonts
+$ff-body: 'Roboto', sans-serif;
+
+//colors
+$fc-white: #EBECED;
+$fc-lightBlue: #00d7fe;
+$fc-blue: #077ec4;
+$fc-darkBlue: #00416b;
+$fc-black: #101211;
+
+.title{
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  position: relative;
+  color: $fc-white;
+  background: $fc-blue;
+  border-radius: 5px;
+  padding: .5% 0;
+}
+
+.sub-title{
+  font-size: 1.5em;
+  padding: 10px;
+  font-weight: 600;
+}
+
+i{
+  font-size: 35px;
+  color: fc-blue;
+  margin-top: 20px;
+}
+
+.card{
+  background: $fc-white;
+  box-shadow: 0px 20px 6px 0px $fc-black;
+  text-align: center;
+  padding: 2%;
+  color: fc-darkBlue;
+  font-weight: 500;
+  line-height: 1.5;
+  border-radius: 5px;
+  .title{
+    font-size: 2em;
+    padding: 3% 0 0 0;
+    margin: 20px 0;
+  }
+}

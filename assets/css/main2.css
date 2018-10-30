@@ -1,0 +1,88 @@
+
+$white: #b3b7b3;
+$lgray: #989089;
+$dark: #242628;
+$mgray: #716d6d;
+$blue: #394849;
+
+
+* {
+  box-sizing: border-box;
+  font-family: 'Stoke', serif;
+}
+
+body, html {
+  /* for cover page */
+    height: 100%;
+    margin: 0;
+}
+
+.background{
+  /*image and browser support*/
+  background: url('https://picfiles.alphacoders.com/163/163521.jpg') no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+  /* Full height*/
+  height: 100%;
+
+  /*center and scale*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.navbar{
+  display: inline-block;
+  height: 5vw;
+  width: 97vw;
+  text-align: right;
+  padding-top: 15px;
+}
+
+a {
+  padding: 10px;
+  font-weight: 300;
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #fff;
+}
+
+a:hover {
+  color: #c972a9;
+  text-shadow: 0px 30px 5px #404e8d;
+  transition: .3s ease-in-out;
+  }
+
+.container{
+  background: url('https://fantazya.net/wp-content/uploads/2017/03/otto-htter-darkness-foggy-landscape-lighting-moody-moon-mountains-stars-dark-night-full-moon-mountain-fog-sky-landscape-hd.jpg')no-repeat center center;
+  background-size: cover;
+  padding-right: 505px;
+  padding-left: 505px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.about-img{
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  border-radius: 50%;
+}
+
+.about-text{
+  font-family: 'Stoke', serif;
+}
+
+.about-text-closing{
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  font-family: 'Stoke', serif;
+}

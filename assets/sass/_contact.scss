@@ -1,0 +1,59 @@
+.contact{
+  margin: 10em auto;
+  text-align: center;
+
+  .contact-head{
+    padding: 1% 0;
+    font-size: 2em;
+  }
+
+  h2{
+    color: $fc-white;
+    font-weight: 600;
+    margin-bottom: 3%;
+    font-size: 2em;
+    background: $fc-blue;
+    border-radius: 5px;
+  }
+
+  p{
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color: $fc-lightBlue;
+  }
+
+  .contact-body{
+  font-size: 1.5em;
+
+  input, textarea{
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid $fc-darkBlue;
+    height: 5%;
+    text-align: center;
+    font-size: 1.5em;
+    color: $fc-lightBlue;
+    margin-bottom: 2%;
+  }
+
+  .sub{
+    color:$fc-white;
+    background: $fc-lightBlue;
+  }
+  }
+}
+
+@media only screen and(max-width: 850px){
+  .contact .contact-head{
+    font-size: 1.25em;
+  }
+  
+  form{
+    margin: 1em 0;
+  }
+  .contact .contact-body input, .contact .contact-body textarea{
+  width: 100%;
+  font-size: 1em;
+  }
+}
