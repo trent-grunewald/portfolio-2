@@ -34,16 +34,14 @@ i{
 }
 
 .card{
-  background: $fc-white;
-  box-shadow: 0px 20px 6px 0px $fc-black;
+  box-shadow: 0 0 7px 0px #0cbfef7a;
   text-align: center;
   padding: 2%;
   color: fc-darkBlue;
   font-weight: 500;
   line-height: 1.5;
-  border-radius: 5px;
   .title{
-    font-size: 2em;
+    font-size: 1.52em;
     padding: 3% 0 0 0;
     margin: 20px 0;
   }

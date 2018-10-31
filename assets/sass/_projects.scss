@@ -1,5 +1,5 @@
 .projects{
-  background: $fc-white;
+  background: white;
   background-size: cover;
   box-shadow: 0 0 7px 0px #0cbfef7a;
 
@@ -36,12 +36,9 @@
 
     .project{
       padding: 5%;
-    background: white;
-    height: 400px;
-    position: relative;
-    border-top: 3px solid $fc-darkBlue;
-    border-bottom: 3px solid $fc-darkBlue;
-    border-left: 3px solid $fc-darkBlue;
+      background: white;
+      height: 400px;
+      position: relative;
     }
 
       .project-description{
@@ -52,12 +49,8 @@
         line-height: 1.5;
         color: #272727;
         padding: 1em;
-        background: #fff;
         border-radius: 0 5px 5px 0;
         border-radius: 0 5px 5px 0;
-        border-top: 3px solid $fc-darkBlue;
-        border-bottom: 3px solid $fc-darkBlue;
-        border-right: 3px solid $fc-darkBlue;
 
         .project-title{
           text-align: center;
@@ -79,12 +72,11 @@
 
           p{
             font-size: 1em;
-            background: $fc-lightBlue;
+            background: #00416b;
             border-radius: 10px;
             padding: 1px 10px;
-            color: $fc-white;
+            color: #EBECED;
             margin: 5px 5px;
-       
         
         img{
           text-align: center;
@@ -104,10 +96,11 @@
           button{
             border: none;
             padding: 10px;
-            border-radius: 5px;
-            background: $fc-lightBlue;
+            border-radius: 50px;
+            background: #0787ca;
             text-align: center;
             margin: 10px;
+            -ms-flex-positive: 1;
             flex-grow: 1;
 
           a{

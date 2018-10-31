@@ -31,11 +31,14 @@
 
 .nav{
   padding: 20px;
-  letter-spacing: 2px;
-  display: flex;
-  position: fixed;
-  width: 100%;
-  z-index: 7;
+    letter-spacing: 2px;
+    display: -ms-flexbox;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    z-index: 7;
+    background: white;
+    box-shadow: 0 0 7px 0px #0cbfef7a;
 
   .social-nav{
     display: none;
